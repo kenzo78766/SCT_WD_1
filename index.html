@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#home">Logo</a>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link" data-section="services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Mobile Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Welcome to Our Website</h1>
+                    <p>Experience smooth scrolling navigation with interactive effects</p>
+                    <a href="#about" class="btn btn--primary">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Us</h2>
+                <div class="section-content">
+                    <p>We are passionate about creating exceptional web experiences with modern design and interactive elements. Our team focuses on delivering high-quality solutions that engage users and drive results.</p>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <h3>Modern Design</h3>
+                            <p>Clean, contemporary interfaces that captivate and engage your audience.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>Interactive Elements</h3>
+                            <p>Smooth animations and transitions that enhance user experience.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>Responsive Layout</h3>
+                            <p>Perfectly optimized for all devices and screen sizes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="section-content">
+                    <p>We offer a comprehensive range of web development and design services to help your business thrive online.</p>
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>Web Development</h3>
+                            <p>Custom websites and web applications built with the latest technologies and best practices.</p>
+                        </div>
+                        <div class="service-item">
+                            <h3>UI/UX Design</h3>
+                            <p>User-centered design that creates intuitive and engaging digital experiences.</p>
+                        </div>
+                        <div class="service-item">
+                            <h3>E-commerce Solutions</h3>
+                            <p>Complete online store development with secure payment integration and inventory management.</p>
+                        </div>
+                        <div class="service-item">
+                            <h3>Mobile Development</h3>
+                            <p>Native and cross-platform mobile applications for iOS and Android devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>Our Portfolio</h2>
+                <div class="section-content">
+                    <p>Take a look at some of our recent projects and see how we've helped businesses achieve their digital goals.</p>
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item">
+                            <div class="portfolio-image">
+                                <div class="portfolio-icon"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>E-commerce Platform</h3>
+                                <p>A modern online shopping experience with advanced filtering and seamless checkout.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-image">
+                                <div class="portfolio-icon"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>Corporate Website</h3>
+                                <p>Professional business website with interactive elements and optimized performance.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-image">
+                                <div class="portfolio-icon"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>Mobile Application</h3>
+                                <p>Cross-platform mobile app with real-time features and intuitive user interface.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="section-content">
+                    <p>Ready to start your next project? We'd love to hear from you and discuss how we can help bring your ideas to life.</p>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <h3>Email</h3>
+                                <p>hello@example.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Phone</h3>
+                                <p>+0000000000000</p>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Address</h3>
+                                <p>123 India, Suite 100<br>City, State 12345</p>
+                            </div>
+                        </div>
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
