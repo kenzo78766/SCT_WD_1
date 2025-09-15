@@ -1,3 +1,6 @@
+https://kenzo78766.github.io/SCT_WD_1/
+
+
 # Interactive Navigation Menu
 
 A modern, responsive navigation menu with dynamic scroll effects and interactive hover animations, developed as part of an internship project at **SkillCraft Technology**.
